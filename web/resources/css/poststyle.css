@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*post*/
+#postCon {width:1200px;margin:80px auto;}
+#postCon .pt_take {margin-bottom:30px;margin-top: 50px;}
+#postCon font.tit {display:inline-block;color:#9e5bd8;font-size:20px;letter-spacing: -2px;font-weight: bold;margin-bottom:20px}
+
+#postCon .w3-container {padding:0}
+
+#postCon .pt_take table tr th, #postCon .pt_send table tr th {width: calc(1200px/4);}
+
+/*post 서브 사이드 메뉴*/
+/* #postside {width:13%;position:absolute!important;background-color:#f9f9f9!important }
+#postside h3.w3-bar-item {font-weight: bold;padding-top: 30px;padding-bottom: 30px;background: #9e5bd8;color:#fff}
+#postside .list {margin-top:20px}
+#postside .list a.w3-bar-item {}
+#postside .list a:hover {background: #9e5bd8 !important;color:#fff !important} */
+
+/* 찾기 */
+#postwrap {}
+#postwrap #search {border: 1px solid #e8e8e8;padding: 20px 0;margin:0}
+
+#search{}
+#search form {}
+#search form input[type="text"]{width:250px;height:30px}
+#search form input[type="text"]::placeholder{font-size:14px;text-indent: 10px;}
+#search form input[type="submit"]:hover {background: #9e5bd8;}
+#search form input[type="submit"]{cursor: pointer;background: #4f4f4f;color: #fff;border: none;padding: 5px 10px;}
+
+
+/*postWriteForm*/
+#postTextIn {margin: 60px 0 100px;}
+#postTextIn font.tit {display: block;margin-bottom: 50px;text-align: center;color:#9e5bd8;color: #000;letter-spacing: -1px;font-size: 16px;}
+#postTextIn font.tit span {display: block;font-size: 40px;}
+#postTextIn .postwrite table {margin: 0 auto;}
+#postTextIn .postwrite input {border:0}
+#postTextIn .postwrite input:focus {outline:0}
+#postTextIn .postwrite input[type="text"]{width:100%;text-indent: 10px;}
+#postTextIn .postwrite .pR .cont{height:400px}
+#postTextIn .postwrite .pR .cont .cke_chrome {border: 0;}
+#postTextIn .postwrite .pR .cont .cke_top {border: 0;}
+#postTextIn .postwrite .pR .tit{height:40px;}
+#postTextIn .postwrite .pR .to{height:40px;}
+#postTextIn .postwrite .pR .date{height:40px}
+#postTextIn .postwrite .pR .file{height:40px}
+#postTextIn .postwrite .pR .file td {text-indent: 10px;text-align: left;}
+#postTextIn .postwrite .pR .chk{height:40px}
+#postTextIn .postwrite td {text-align: left;}
+#postTextIn .postwrite input.bottomb {cursor:pointer;padding: 0 10px;}
+
+
+.postcount {text-align:right;margin-bottom:30px;margin-top:30px}
+.postcount font {font-size:15px;font-weight:bold;color:#000}
+.postcount font .icon{background-color: #9e5bd8;color: #fff;padding: 5px;border-radius: 50%;}
+.deleteBtn td {border:none}
+.deleteBtn th {border: none !important;background: none !important;padding-top:20px}
+.deleteBtn td {border: none !important;}
+.detailBtn th {border: none !important;background: none !important;padding-top:20px}
+
+.declaration th{background:none !important;border:none !important;text-align:right;padding-bottom: 20px;}
+.declaration th a {display: inline-block;width: 100px;}
+.declaration th a img {}
+
+
+

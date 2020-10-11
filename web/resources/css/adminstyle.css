@@ -1,0 +1,186 @@
+@charset "UTF-8";
+html {overflow-x: auto !important;}
+
+/*adminheader*/
+.toplogo {width:1500px;margin:30px auto}
+.toplogo #logo {float: left;font-size: 36pt;font-style: italic;color : black;letter-spacing: -2px;margin: 0;}
+.toplogo #adminicon {float: right;}
+.toplogo #adminicon img, .toplogo #adminicon p, .toplogo #adminicon #logouticon {display:inline-block;margin-right:10px}
+.toplogo #adminicon p, .toplogo #adminicon #logouticon a {color:#000;font-size: 13px;}
+.toplogo #adminicon #logouticon a {background:#1b87d4;color:#fff;padding: 5px 10px;}
+.topnav {}
+.topnav ul {}
+.topnav ul li {display: inline-block;}
+.topnav ul li a {font-size:15px}
+.topnav.on {position:fixed;top:0;left:0;right:0}
+
+/* adminMainPage */
+#adminmain {width: 1500px; margin: 0px auto;}
+#adminmain .ad_list {float: left;width: 50%;padding: 0 10px;}
+#adminmain .ad_list h4 {margin-bottom:15px;text-align:left;color: #1b87d4;font-weight: bold;}
+#adminmain .ad_list h4 span {margin-left:5px;color:#999;font-size:14px}
+#adminmain .ad_list table {width: 100%;margin-bottom:20px;border: 1px solid #efefef;}
+#adminmain .ad_list table tr {}
+#adminmain .ad_list table tr:nth-child(odd) {background: #ecf0f7;}
+#adminmain .ad_list table tr th {height:38px;background: #1b87d4;color:#fff;font-weight: normal;font-size:14px}
+#adminmain .ad_list table tr td {height:38px;color:#000;font-size:14px}
+#adminmain .ad_list table tr td a {}
+
+#adminmain .ad_list table#newreport {}
+#adminmain .ad_list table#newreport tr th:nth-child(1) {width:50px}
+#adminmain .ad_list table#newreport tr th:nth-child(2) {width:70px}
+#adminmain .ad_list table#newreport tr th:nth-child(3) {}
+#adminmain .ad_list table#newreport tr th:nth-child(4) {width:100px}
+#adminmain .ad_list table#newreport tr th:nth-child(5) {width:100px}
+#adminmain .ad_list table#newreport tr th:nth-child(6) {width:120px}
+#adminmain .ad_list table#newreport tr td {}
+#adminmain .ad_list table#newreport tr td:nth-child(3) a, #adminmain .ad_list table#newqna tr td:nth-child(2) a {width:250px;margin:0 auto;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;line-height:1.5em;}
+#adminmain .ad_list table#newqna tr th:nth-child(1) {width:50px}
+#adminmain .ad_list table#newqna tr th:nth-child(2) {}
+#adminmain .ad_list table#newqna tr th:nth-child(3) {width:120px}
+#adminmain .ad_list table#newqna tr th:nth-child(4) {width:140px}
+
+/*adminmaingrap*/
+#adminmaingrap {width:1500px;margin:0 auto}
+#draw1{
+	float: left; 
+	width: 750px; 
+	height: 500px;
+}
+
+#draw2{
+	float: left; 
+	width: 750px; 
+	height: 500px;
+}
+
+/*사이드바*/
+/* #ad_sidebar {width: 10%; position: absolute !important;}
+#ad_sidebar ul li {}
+#ad_sidebar ul li a {font-size:14px}
+#ad_sidebar ul li a.w3-bar-item:hover {background: #ecf0f7 !important;}
+ */
+ 
+#adsubmenu {}
+#adsubmenu ul {margin: 35px auto 55px;
+    padding: 22px 30px;
+    background: #fbf8f3;
+    border-radius: 50px;
+    text-align: center;}
+#adsubmenu ul li {display:inline-block;}
+#adsubmenu ul li:after {content: '';display:inline-block;width: 1px;height: 16px;background: #e1e1e1;}
+#adsubmenu ul li:last-child:after {display:none}
+#adsubmenu ul li a {color: #000;font-size: 16px;padding: 0 50px;}
+#adsubmenu ul li.on a {color: #1b87d4;font-weight:bold;}
+
+h1.ad_pagetit {display: block;
+	text-align: left;
+    margin-bottom: 50px;
+    color: #999;
+    letter-spacing: -1px;
+    font-size: 15px;}
+h1.ad_pagetit span {margin-right:20px;font-size: 40px;font-family: 'Nunito', sans-serif;color: #000;}
+
+/*memberListView*/
+#ad_listview {width:1400px;margin:50px auto;}
+#ad_listview .sform.ad_serch_in {border-top:0}
+#ad_listview .ad_serch_in {border:1px solid #ddd;font-size: 14px;letter-spacing: -1px;}
+#ad_listview .ad_serch_in legend {display:inline-block;width: 300px;float: left;background:#1b87d4;color:#fff;}
+#ad_listview .ad_serch_in .topserch {float: left;font-size: 14px;margin-left:30px}
+#ad_listview .ad_serch_in .topserch label {margin-right: 10px;}
+#ad_listview .ad_serch_in .topserch input[type=search],
+#ad_listview .ad_serch_in .topserch input[type=text],
+#ad_listview .ad_serch_in .topserch input[type=date] {width: 300px;height: 28px;}
+#ad_listview .ad_serch_in .topserch input[type=submit] {height: 28px;line-height: 28px;width: 100px;}
+#ad_listview fieldset.ad_serch {border:0;color: #000;margin: 0;padding: 0;height: 40px;line-height: 40px;} 
+#ad_listview table.serchlist {margin-top:50px}
+#ad_listview table.serchlist tr, #ad_listview table.serchlist tr {border-bottom: 0;}
+.w3-table td, .w3-table th, .w3-table-all td, .w3-table-all th {text-align: center !important;height: 33px;line-height: 33px;}
+#ad_listview .w3-table-all tr:first-child{background: #2a3954 !important;color:#fff}
+#ad_listview .w3-table-all tr:nth-child(even) {background: none;}
+#ad_listview .w3-table-all tr:nth-child(odd) {background: #ecf0f7;}
+#ad_listview .w3-table-all {border:0}
+#ad_listview .w3-bordered tr, #ad_listview .w3-table-all tr {border:0}
+
+.adserchone {border: 1px solid #ddd;color: #000;margin: 0;padding: 0; height: 40px;line-height: 40px;}
+.adserchone fieldset {margin:0;padding:0;border: 0;}
+.adserchone legend{display: inline-block;width: 300px;height: 38px;float: left;background: #1b87d4;color: #fff;}
+.adserchone .topserch {float: left;font-size: 14px;margin-left:30px}
+.adserchone .topserch input[type='search'] {width: 300px;height: 28px;}
+.adserchone .topserch input[type='submit'] {height: 28px;line-height: 28px;width: 100px;}
+#searchdormem {float:right;}
+#searchdormem select {height:30px;}
+#searchdormem select option {}
+#searchdormem select input {}
+#searchdormem input[type='text'] {height:30px;}
+#searchdormem input[type='submit'] {height:30px;cursor:pointer;padding: 0 20px;background: #1b87d4;color: #fff;}
+
+.levellist {margin-top:20px}
+.levellist form {}
+.levellist form table {width:100%;border: 1px solid #ccc;}
+.levellist form table input {border:none;text-align:center}
+.levellist form table input[type="radio"]{margin-right:5px}
+.levellist input[type="submit"] {cursor: pointer;background: #1b87d4;color: #fff;padding: 5px 10px;border: 0;margin-top: 20px;}
+.levellist.w3-table-all {border:none}
+
+#deletebutton {float: left;padding-bottom: 30px;}
+#deletebutton input {cursor:pointer;background: #1b87d4;color: #fff;padding: 5px 10px;border:0}
+
+.admore {float: right;background: #1b87d4;}
+.admore a {color: #fff;padding: 5px 15px;display: inline-block;}
+.admore:hover {background-color:#2a3954}
+
+#ad_listview .my_page{width:1400px;margin:0}
+#ad_listview .my_page .my_table table tr:last-child {border-bottom:0}
+#ad_listview .my_page .btn_in button{cursor: pointer;
+    background: #1b87d4;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;}
+#ad_listview .my_page .btn_in button:hover {background:#1b87d4}
+#ad_listview .w3-table td, #ad_listview .w3-table th, #ad_listview .w3-table-all td, #ad_listview .w3-table-all th {vertical-align: middle;}
+#ad_listview .my_page .btn_in {}
+#ad_listview .my_page .btn_in button, #ad_listview .my_page .btn_in input{cursor: pointer;
+    background: #1b87d4;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;}
+#ad_listview .my_page .btn_in button:hover, #ad_listview .my_page .btn_in input:hover{background:#1b87d4}
+#ad_listview .my_page .my_table.update tr:nth-child(1) input, 
+#ad_listview .my_page .my_table.update tr:nth-child(2) input, 
+#ad_listview .my_page .my_table.update tr:nth-child(5) input {background: none;}
+#ad_listview .my_page .my_table.update tr:nth-child(1) input {color:#fff}
+
+
+#ad_listview .ad_uptable {width:100%}
+#ad_listview .ad_uptable tr th {
+    height: 40px;
+    color: #000;
+    background: #ecf0f7;
+    border: 1px solid #e8e8e8;
+}
+.ad_uptable tr td {text-align: left;}
+.ad_uptable tr td input {border:none;width:100%;/* text-indent: 20px; */}
+/* .ad_uptable tr td input:focus {outline:none !important;} */
+#ad_listview .ad_uptable textarea {width:100%;border:none;}
+
+.adtablenone {}
+.adtablenone th {padding-top:30px;background: none !important;border: none !important;}
+.adtablenone input {
+    cursor: pointer;
+    background: #1b87d4;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+    height:40px;font-size: 15px;
+}
+
+.adtablenone input:hover{background: #1b87d4;}
+.ad_detailbtn {margin-top:30px}
+.ad_detailbtn button, .ad_detailbtn input {width: 130px;cursor: pointer;
+    background: #1b87d4;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;}
+
+div#logo img {width:250px;}
